@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Affichette A5 – Maison Fréville</title>
+<style>
+  @font-face { font-family: "Cormorant"; src: url("../app/fonts/cormorant-garamond-latin-300-normal.woff2") format("woff2"); font-weight: 300; }
+  @font-face { font-family: "Cormorant"; src: url("../app/fonts/cormorant-garamond-latin-300-italic.woff2") format("woff2"); font-weight: 300; font-style: italic; }
+  @font-face { font-family: "Jost"; src: url("../app/fonts/jost-latin-300-normal.woff2") format("woff2"); font-weight: 300; }
+  @font-face { font-family: "Jost"; src: url("../app/fonts/jost-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @page { size: 148mm 210mm; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 148mm; height: 210mm; }
+  body { background: #FAF5EC; color: #2E241C; font-family: "Jost", Arial, sans-serif; font-weight: 300; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { position: relative; width: 148mm; height: 210mm; padding: 14mm 13mm 12mm; display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .frame { position: absolute; inset: 6mm; border: 0.3mm solid rgba(154,106,54,.55); }
+  .mark { width: 15mm; height: auto; margin-top: 2mm; }
+  .name { font-family: "Cormorant", Georgia, serif; font-weight: 300; font-size: 23pt; letter-spacing: .3em; padding-left: .3em; margin-top: 5mm; }
+  .sub { font-family: "Cormorant", Georgia, serif; font-style: italic; font-size: 12.5pt; color: #7A5228; margin-top: 1.5mm; }
+  .rule { width: 18mm; height: .3mm; background: #9A6A36; opacity: .6; margin: 7mm 0 6mm; }
+  h1 { font-family: "Cormorant", Georgia, serif; font-weight: 300; font-size: 26pt; line-height: 1.08; max-width: 112mm; }
+  .lead { font-size: 9.5pt; line-height: 1.6; color: #574A3E; max-width: 105mm; margin-top: 4mm; }
+  .qr { margin-top: 8mm; padding: 4mm; background: #fff; border: .3mm solid #E6D9C2; }
+  .qr img { width: 36mm; height: 36mm; display: block; }
+  .scan { font-size: 8pt; letter-spacing: .22em; text-transform: uppercase; color: #7A5228; margin-top: 4mm; }
+  .url { font-family: "Cormorant", Georgia, serif; font-size: 12pt; margin-top: 1.5mm; }
+  .foot { margin-top: auto; font-size: 8.5pt; line-height: 1.6; color: #574A3E; }
+  .foot strong { font-weight: 400; color: #2E241C; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="frame"></div>
+  <svg class="mark" viewBox="0 0 120 160" fill="none" stroke="#9A6A36" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M24 150H96"/><path d="M30 150 23 74C13 68 18 34 60 30"/><path d="M90 150 97 74C107 68 102 34 60 30"/><path d="M23 74Q60 82 97 74"/>
+    <path d="M40 150 36 78M50 150 48.5 80M60 150V81M70 150 71.5 80M80 150 84 78M38 52Q49 44 60 46" stroke-width="1.6"/>
+  </svg>
+  <p class="name">MAISON FRÉVILLE</p>
+  <p class="sub">Les spécialités de Quesnoy-le-Montant</p>
+  <div class="rule"></div>
+  <h1>Commandez votre gâteau battu en ligne, retirez-le ici</h1>
+  <p class="lead">Gâteaux battus, plateaux de 15 minis, galettes et créations de saison : choisissez votre jour de retrait, on vous le prépare. Commandez 48&nbsp;h à l'avance.</p>
+  <div class="qr"><img src="qr-site.svg" alt="QR code vers le site de la Maison Fréville"></div>
+  <p class="scan">Scannez pour commander · Scan to order</p>
+  <p class="url">maison-freville.vercel.app</p>
+  <p class="foot"><strong>6 rue des Vergeaux, Amiens · 03 22 40 15 86</strong><br>Mardi au vendredi 10&nbsp;h – 19&nbsp;h · Samedi 9&nbsp;h – 19&nbsp;h</p>
+</div>
+</body>
+</html>
