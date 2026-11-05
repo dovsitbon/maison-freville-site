@@ -1,0 +1,22 @@
+{
+  "name": "Maison Fréville",
+  "fullName": "Maison Fréville – Les spécialités de Quesnoy-le-Montant",
+  "altName": "Les spécialités de Quesnoy-le-Montant",
+  "url": "https://maison-freville.vercel.app",
+  "since": 1956,
+  "phone": "03 22 40 15 86",
+  "phoneIntl": "+33322401586",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "6 rue des Vergeaux", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8935, "lng": 2.2967 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+sp%C3%A9cialit%C3%A9s+de+Quesnoy-le-Montant+6+rue+des+Vergeaux+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=6+rue+des+Vergeaux,+80000+Amiens&z=16&output=embed",
+  "instagram": "https://www.instagram.com/lesspecialitesdequesnoy/",
+  "instagramHandle": "@lesspecialitesdequesnoy",
+  "facebook": "https://www.facebook.com/Les-sp%C3%A9cialit%C3%A9s-de-Quesnoy-le-Montant-Maison-Fr%C3%A9ville-Amiens-101136469294991",
+  "rating": { "value": 4.8, "count": 141, "source": "Google", "checked": "2026-11-05" },
+  "order": { "leadHours": 48, "maxPerLine": 20, "confirmLeadTime": true },
+  "payment": { "enabled": false, "provider": "stripe" },
+  "legal": { "company": "", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

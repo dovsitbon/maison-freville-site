@@ -1,0 +1,402 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte tirée de la boutique et du gâteau : crème, mie jaune beurre, croûte brun doré,
+     papier peint vert sauge du salon, devanture orange (en touche seulement). */
+  --color-cream: #faf5ec;
+  --color-cream-deep: #f3ebdd;
+  --color-butter: #f1d9a4;
+  --color-butter-soft: #f7ead0;
+  /* Brun doré décoratif (filets, tracés) */
+  --color-crust: #9a6a36;
+  /* Brun doré pour le petit texte et les boutons : 6,6:1 sur crème */
+  --color-crust-ink: #7a5228;
+  --color-sage: #8c9a80;
+  --color-sage-ink: #56634d;
+  --color-terracotta: #c8692e;
+  --color-ink: #2e241c;
+  /* Texte courant : 7,8:1 sur crème */
+  --color-muted: #574a3e;
+  --color-line: #e6d9c2;
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color-scheme: light;
+    scroll-padding-top: 7rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-butter);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-crust-ink);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--color-crust-ink);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+  }
+  .display em {
+    font-style: italic;
+  }
+  .nav-link {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.85;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3.125rem;
+    padding: 0.85rem 1.9rem;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition:
+      background-color 0.6s var(--ease-soft),
+      color 0.6s var(--ease-soft),
+      border-color 0.6s var(--ease-soft);
+  }
+  .btn {
+    background: var(--color-crust-ink);
+    border: 1px solid var(--color-crust-ink);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-ink);
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.25em;
+    transition: background-size 0.6s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+
+  .field {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--color-line);
+    background: transparent;
+    padding: 0.7rem 0;
+    font-size: 1rem;
+    color: var(--color-ink);
+    border-radius: 0;
+    transition: border-color 0.4s;
+  }
+  select.field {
+    appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237a5228' stroke-width='1.4'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right center / 1rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+  }
+  select.field option {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-terracotta);
+  }
+  .field::placeholder {
+    color: #8f8172;
+  }
+  .label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--color-line);
+    min-height: 2.75rem;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.3s,
+      background-color 0.3s,
+      color 0.3s;
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 1px solid var(--color-crust-ink);
+    outline-offset: 3px;
+  }
+
+  /* Photos : zoom très doux au survol */
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 1.8s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.035);
+  }
+
+  /* Filet doré très fin */
+  .rule {
+    height: 1px;
+    background: var(--color-crust);
+    opacity: 0.45;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+}
+.reveal {
+  transition:
+    opacity 1.3s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 1.3s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.5s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 1.6s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.drift {
+  animation: drift 30s ease-in-out infinite alternate;
+}
+@keyframes drift {
+  from {
+    transform: scale(1.01);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (≤ 2 s) : fond crème, le gâteau battu se dessine au trait doré de bas en haut avec ses cannelures,
+   une fine vapeur monte de la tasse, « MAISON FRÉVILLE » puis le sous-titre apparaissent, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.4s ease-out 1.6s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw var(--t, 0.7s) cubic-bezier(0.55, 0, 0.3, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-steam {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0;
+  animation: intro-steam 0.9s ease-out var(--d, 0.6s) forwards;
+}
+@keyframes intro-steam {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.55;
+    stroke-dashoffset: 0;
+    transform: translateY(-3px);
+  }
+}
+.intro-name {
+  opacity: 0;
+  letter-spacing: 0.42em;
+  animation: intro-name 0.7s var(--ease-soft) 0.75s forwards;
+}
+@keyframes intro-name {
+  to {
+    opacity: 1;
+    letter-spacing: 0.3em;
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: intro-fade 0.45s ease-out var(--d) forwards;
+}
+@keyframes intro-fade {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Détails / FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.4s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  .drift {
+    animation: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

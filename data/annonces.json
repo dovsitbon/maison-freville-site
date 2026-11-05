@@ -1,0 +1,24 @@
+{
+  "_doc": "Bandeau d'infos en haut du site. Le premier message dont la période contient la date du jour s'affiche (from / to inclus, AAAA-MM-JJ). Sinon : « default ». Textes en fr et en.",
+  "items": [
+    {
+      "id": "noel-2026",
+      "from": "2026-11-15",
+      "to": "2026-12-24",
+      "fr": "Fêtes de fin d'année : réservez votre gâteau battu et vos plateaux de minis dès maintenant.",
+      "en": "Festive season: reserve your gâteau battu and mini platters now."
+    },
+    {
+      "id": "galette-2027",
+      "from": "2026-12-28",
+      "to": "2027-01-31",
+      "fr": "Galettes et brioches des rois en boutique tout le mois de janvier.",
+      "en": "King cakes and brioches des rois in the shop all through January."
+    }
+  ],
+  "default": {
+    "id": "delai",
+    "fr": "Commande à retirer en boutique : pensez à commander 48 h à l'avance.",
+    "en": "Click & collect: please order 48 hours ahead."
+  }
+}

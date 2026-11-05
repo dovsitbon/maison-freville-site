@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "title": "Pâtisserie & tea room in Amiens | Maison Fréville, the real gâteau battu from the Vimeu",
+    "description": "Maison Fréville, Les spécialités de Quesnoy-le-Montant: gâteau battu from the Vimeu, éclairs, tartlets, minis to share and a little tea room at 6 rue des Vergeaux, in the heart of Amiens. Order online, collect in store.",
+    "ogAlt": "Sliced gâteau battu from Maison Fréville, golden crust and yellow crumb"
+  },
+  "nav": {
+    "battu": "Gâteau battu",
+    "patisserie": "Pâtisserie",
+    "salon": "Tea room",
+    "order": "Order",
+    "infos": "Visit",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "skip": "Skip to content",
+    "lang": "Language",
+    "instagram": "The shop on Instagram",
+    "facebook": "The shop on Facebook",
+    "orderCta": "Order for pickup",
+    "call": "Call",
+    "home": "Home"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close banner"
+  },
+  "hero": {
+    "eyebrow": "Pâtisserie · Tea room · Amiens",
+    "title": "The real gâteau battu from the Vimeu, in the heart of Amiens",
+    "sub": "Maison Fréville's recipe, baked in Quesnoy-le-Montant since 1956. Pastries made in front of you, and a small tea room at the back of the shop.",
+    "ctaOrder": "Order for pickup",
+    "ctaSalon": "Visit the tea room",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews",
+    "ratingNote": "Google rating as of {date}"
+  },
+  "status": {
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed right now",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": {
+    "title": "Our specialities",
+    "items": {
+      "battu": "Gâteau battu",
+      "minis": "Minis to share",
+      "patisseries": "Éclairs & tartlets",
+      "sale": "Savoury",
+      "guimauves": "Marshmallows & chocolates",
+      "saisons": "Seasonal creations"
+    }
+  },
+  "services": {
+    "title": "Good to know",
+    "items": {
+      "pickup": {
+        "title": "Click & collect",
+        "text": "Order online, pick up at 6 rue des Vergeaux."
+      },
+      "salon": {
+        "title": "Tea room",
+        "text": "A few tables at the back of the shop, Tuesday to Saturday."
+      },
+      "events": {
+        "title": "Orders for celebrations",
+        "text": "Gâteaux battus, mini platters, king cakes: made to order."
+      },
+      "phone": {
+        "title": "+33 3 22 40 15 86",
+        "text": "A question or a last-minute order? Give us a call."
+      }
+    }
+  },
+  "story": {
+    "eyebrow": "Since 1956",
+    "title": "Gâteau battu, the Vimeu's own brioche",
+    "p1": "In Quesnoy-le-Montant, between Abbeville and the Bay of the Somme, the Fréville family has been baking gâteau battu since 1956. Charles started it, his son Francis took over in 1981, and his children run the house today.",
+    "p2": "It is a tall, fluted brioche, made with a great many egg yolks and plenty of butter, beaten for a long time before it is baked in its mould. The crumb is yellow, stringy, almost melting. Picardy serves it at weddings and christenings, at breakfast, or simply because it's there.",
+    "p3": "The flour comes from a mill a few kilometres from Quesnoy, the eggs from Huppy, the butter from the region. No preservatives, and still it keeps for about ten days.",
+    "cta": "All about gâteau battu",
+    "facts": {
+      "since": "Family recipe since 1956",
+      "local": "Local flour, eggs and butter",
+      "keeps": "Keeps for about ten days"
+    },
+    "draft": "Draft text, awaiting the shop's approval."
+  },
+  "patisserie": {
+    "eyebrow": "Pâtisserie",
+    "title": "Today in the window",
+    "intro": "Everything is made in the workshop, in full view. Here is what you will usually find in the window; the rest changes with the seasons.",
+    "from": "from",
+    "each": "each",
+    "priceOnRequest": "Price in store",
+    "availability": {
+      "shop": "In store",
+      "order": "To order",
+      "both": "In store and to order"
+    },
+    "order": "Order",
+    "seeMenu": "Full menu and prices"
+  },
+  "minis": {
+    "eyebrow": "To share",
+    "title": "Build your platter of 15 minis",
+    "intro": "For a birthday, an office treat or a family tea: pick your 15 minis, sweet, savoury or both. We will call you back to confirm the price and the pickup day.",
+    "sweet": "Sweet",
+    "savory": "Savoury",
+    "count": "{n} of {total}",
+    "left": "{n} more to choose",
+    "full": "Your platter is complete",
+    "add": "Add one {name}",
+    "remove": "Remove one {name}",
+    "reset": "Start again",
+    "submit": "Request this platter",
+    "hint": "The selection may vary with the day's baking; the shop will confirm everything."
+  },
+  "salon": {
+    "eyebrow": "Tea room",
+    "title": "A little tea room hidden at the back of the shop",
+    "p1": "You come in for a gâteau battu and find, at the back, a few tables, a leather banquette, leafy wallpaper and light from the glass roof. Regulars keep it to themselves; visitors to the cathedral stumble upon it.",
+    "p2": "Coffee, tea, a slice of flan or an éclair: no booking needed, Tuesday to Saturday.",
+    "cta": "Get directions",
+    "menuTitle": "Tea room menu",
+    "menuSoon": "Coffee, tea and every pastry in the window. The full tea room menu will be online soon.",
+    "teas": "Teas",
+    "coffees": "Coffees",
+    "formulas": "Afternoon tea sets",
+    "photoSoon": "Photo of the room coming soon"
+  },
+  "seasons": {
+    "eyebrow": "Seasonal",
+    "title": "Creations of the moment",
+    "intro": "Every holiday has its creation. They only stay in the window for a few weeks, so reserve yours.",
+    "now": "Now",
+    "from": "From {date}",
+    "until": "Until {date}",
+    "items": {
+      "halloween": {
+        "title": "Halloween",
+        "text": "A chocolate coffin-shaped entremets, and other sweet scares."
+      },
+      "fetes": {
+        "title": "Christmas & New Year",
+        "text": "Gâteaux battus, entremets and mini platters for the festive table."
+      },
+      "rois": {
+        "title": "King cakes",
+        "text": "Puff-pastry galette and the brioche des rois with candied fruit, all January."
+      },
+      "saintPatrick": {
+        "title": "St Patrick's Day",
+        "text": "A shamrock entremets, for one week only."
+      },
+      "paques": {
+        "title": "Easter",
+        "text": "Openwork eggs, rabbits, hens and sheep in chocolate, made in the workshop."
+      }
+    },
+    "order": "Reserve"
+  },
+  "gallery": {
+    "eyebrow": "Instagram",
+    "title": "Lately in the window",
+    "follow": "Follow on Instagram",
+    "open": "Enlarge photo",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "counter": "{n} / {total}"
+  },
+  "infos": {
+    "eyebrow": "Visit",
+    "title": "Finding the shop",
+    "address": "Address",
+    "hours": "Opening hours",
+    "phone": "Phone",
+    "closed": "Closed",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "access": "On foot from the cathedral",
+    "accessText": "About a 5-minute walk: head for Place Gambetta, rue des Vergeaux is just round the corner. The shop is at number 6, with an orange front.",
+    "route": "Directions",
+    "mapTitle": "Map: 6 rue des Vergeaux, Amiens",
+    "facadeSoon": "Shop front photo"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you order",
+    "items": [
+      {
+        "q": "How far ahead should I order?",
+        "a": "Allow 48 hours for a gâteau battu, a mini platter or a king cake. For a large order or a celebration (wedding, christening), call us a week ahead."
+      },
+      {
+        "q": "What sizes of gâteau battu do you make?",
+        "a": "Several, from a small cake for two or three to a large battu for a full table. We will give you the current sizes and prices by phone or in the shop."
+      },
+      {
+        "q": "How do I keep a gâteau battu?",
+        "a": "In its wrapping, at room temperature, away from heat. It keeps for about ten days. If it dries out a little, a few seconds in the oven brings it back."
+      },
+      {
+        "q": "What about allergens?",
+        "a": "Gâteau battu contains gluten, eggs and milk. Our pastries may contain nuts. Mention any allergy in your order and we will tell you what is possible."
+      },
+      {
+        "q": "Can I pay online?",
+        "a": "Not yet: you pay in the shop when you collect."
+      },
+      {
+        "q": "Do I need to book the tea room?",
+        "a": "No, just drop in during opening hours. For a group, a quick call beforehand is welcome."
+      }
+    ]
+  },
+  "order": {
+    "eyebrow": "Click & collect",
+    "title": "Order now, we'll have it ready",
+    "intro": "Pick your products and your pickup day. The shop will call you back to confirm the order and the price; you pay when you collect.",
+    "lead": "Pickup from {hours} hours after your order, Tuesday to Saturday.",
+    "productsTitle": "Your order",
+    "product": "Product",
+    "products": {
+      "battu": "Gâteau battu",
+      "plateau": "Mini platter",
+      "galette": "King cake (galette)",
+      "other": "Other"
+    },
+    "size": "Size",
+    "sizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "kind": "Platter",
+    "kinds": {
+      "sweet": "Sweet",
+      "savory": "Savoury",
+      "mixed": "Sweet and savoury"
+    },
+    "portions": "Number of slices",
+    "portionsValue": "{n} slices",
+    "otherPh": "E.g. 6 éclairs, 4 lemon tartlets…",
+    "quantity": "Quantity",
+    "addLine": "Add a product",
+    "removeLine": "Remove this product",
+    "composition": "Platter selection",
+    "pickupTitle": "Pickup",
+    "date": "Pickup day",
+    "slot": "Time",
+    "slots": {
+      "morning": "Morning (opening – 12 pm)",
+      "midday": "Midday (12 – 3 pm)",
+      "afternoon": "Afternoon (3 – 7 pm)"
+    },
+    "closedDay": "The shop is closed that day (Sunday, Monday or a special closure).",
+    "tooSoon": "That day is too soon: the earliest is {date}.",
+    "contactTitle": "Your details",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "emailHint": "To receive a summary of your order.",
+    "message": "Message",
+    "messagePh": "Allergies, writing on the cake, exact time…",
+    "required": "required",
+    "submit": "Send my order",
+    "sending": "Sending…",
+    "payNote": "No online payment: you pay in the shop.",
+    "errors": {
+      "lines": "Add at least one product.",
+      "date": "Choose a pickup day.",
+      "slot": "Choose a time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "send": "Your order could not be sent. Please call us on +33 3 22 40 15 86 and we'll take it by phone."
+    },
+    "done": {
+      "title": "Thank you, your order has been sent",
+      "text": "The shop will call you back to confirm it. Nothing is reserved until we have called you.",
+      "mail": "A summary has been sent to {email}.",
+      "again": "Place another order",
+      "pendingTitle": "One last step: call us to confirm",
+      "pendingText": "Your order is ready but could not be passed to the shop automatically. Call us on +33 3 22 40 15 86 and read us this summary: we'll note it straight away."
+    },
+    "whatsapp": "Also send on WhatsApp",
+    "callTitle": "Easier by phone?",
+    "callText": "Tuesday to Saturday, during opening hours.",
+    "mail": {
+      "subject": "New click & collect order",
+      "title": "New click & collect order",
+      "confirmSubject": "Your order at Maison Fréville",
+      "confirmIntro": "Hello {name},\n\nThank you for your order. Here is what you asked for:",
+      "confirmOutro": "We will call you back to confirm the order and the price. Nothing is reserved until we have called you.\nPayment in the shop when you collect.\n\nMaison Fréville – Les spécialités de Quesnoy-le-Montant\n6 rue des Vergeaux, 80000 Amiens, France\n+33 3 22 40 15 86",
+      "lines": "Products",
+      "pickup": "Pickup",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Customer language"
+    }
+  },
+  "footer": {
+    "tagline": "The real gâteau battu from the Vimeu, pâtisserie and tea room in the heart of Amiens.",
+    "legal": "Legal notice",
+    "menu": "Menu",
+    "battu": "Gâteau battu from the Vimeu",
+    "rights": "© {year} Maison Fréville. Photos: Maison Fréville."
+  },
+  "categories": {
+    "battu": "Gâteaux battus",
+    "eclairs": "Éclairs",
+    "patisseries": "Pastries",
+    "gateaux": "Cakes & loaf cakes",
+    "sale": "Savoury",
+    "douceurs": "Sweets"
+  },
+  "products": {
+    "gateauBattu": {
+      "name": "Gâteau battu from the Vimeu",
+      "desc": "Picardy's tall fluted brioche, rich in egg yolks and butter."
+    },
+    "miniBattu": {
+      "name": "Mini gâteau battu",
+      "desc": "The battu in an individual size, plain."
+    },
+    "miniBattuNutella": {
+      "name": "Mini battu with Nutella",
+      "desc": "Mini battu filled with Nutella."
+    },
+    "miniBattuBueno": {
+      "name": "Mini battu Bueno",
+      "desc": "Mini battu filled Kinder Bueno style."
+    },
+    "babaBattu": {
+      "name": "Baba battu",
+      "desc": "A mini battu soaked in rum, with its pipette and whipped cream."
+    },
+    "miniBattuChevre": {
+      "name": "Goat's cheese mini battu",
+      "desc": "The savoury mini battu, with goat's cheese."
+    },
+    "eclairCafe": {
+      "name": "Coffee éclair",
+      "desc": ""
+    },
+    "eclairChocolat": {
+      "name": "Chocolate éclair",
+      "desc": "Choux pastry, chocolate custard, chocolate glaze."
+    },
+    "eclairViolette": {
+      "name": "Violet éclair",
+      "desc": ""
+    },
+    "eclairPistache": {
+      "name": "Pistachio éclair",
+      "desc": ""
+    },
+    "eclairNutella": {
+      "name": "Nutella éclair",
+      "desc": "Generously filled, one of the window's favourites."
+    },
+    "eclairSpeculoos": {
+      "name": "Speculoos éclair",
+      "desc": ""
+    },
+    "flan": {
+      "name": "Slice of flan",
+      "desc": ""
+    },
+    "pommeTatin": {
+      "name": "Apple tatin",
+      "desc": ""
+    },
+    "merveilleux": {
+      "name": "Chocolate merveilleux",
+      "desc": "Meringue, chocolate cream and chocolate shavings."
+    },
+    "tarteletteCitron": {
+      "name": "Lemon tartlet",
+      "desc": "Lemon cream and lightly torched meringue, lime zest."
+    },
+    "plateauMinis": {
+      "name": "Platter of 15 minis",
+      "desc": "Mini battus, choux and savoury bites, chosen for your guests."
+    },
+    "brownie": {
+      "name": "Brownie",
+      "desc": ""
+    },
+    "cookieNoisettes": {
+      "name": "Three-chocolate hazelnut cookie",
+      "desc": ""
+    },
+    "cookiePistache": {
+      "name": "Pistachio cookie with dark chocolate chips",
+      "desc": ""
+    },
+    "cakePistacheGriottes": {
+      "name": "Slice of pistachio & morello cherry cake",
+      "desc": ""
+    },
+    "cakeFruitsConfits": {
+      "name": "Slice of candied fruit cake",
+      "desc": ""
+    },
+    "cakeNoisette": {
+      "name": "Slice of hazelnut cake",
+      "desc": ""
+    },
+    "tourte": {
+      "name": "House pie",
+      "desc": "Golden puff pastry with the filling of the moment."
+    },
+    "guimauves": {
+      "name": "House marshmallows",
+      "desc": "Soft, with flavours that change from week to week."
+    },
+    "coffretChocolats": {
+      "name": "Box of chocolates",
+      "desc": "The house's golden gift box."
+    },
+    "miniChou": {
+      "name": "Mini choux",
+      "desc": ""
+    },
+    "miniSaleDuMoment": {
+      "name": "Savoury mini of the day",
+      "desc": ""
+    }
+  },
+  "pages": {
+    "battu": {
+      "slug": "gateau-battu",
+      "metaTitle": "Gâteau battu from the Vimeu in Amiens | Maison Fréville",
+      "metaDescription": "What is gâteau battu, Picardy's brioche from the Vimeu? Origins, how it's made, how to keep it, and where to buy it in Amiens: Maison Fréville, 6 rue des Vergeaux.",
+      "eyebrow": "A Picardy speciality",
+      "title": "Gâteau battu from the Vimeu",
+      "lead": "A brioche as tall as a chef's hat, with a yellow, stringy crumb. Where it comes from, how it's made, and where to find it in Amiens.",
+      "sections": [
+        {
+          "title": "What is gâteau battu?",
+          "text": "Gâteau battu (literally “beaten cake”) is a traditional brioche from Picardy, born in the Vimeu and Ponthieu around Abbeville. You know it by its shape: tall, round, fluted on the sides, with a domed golden top. The dough holds a great many egg yolks and plenty of butter, which gives it that yellow colour and a very soft crumb."
+        },
+        {
+          "title": "Why “beaten”?",
+          "text": "Because the dough is beaten for a long time, by hand in the old days, in a mixer now, until it is elastic and full of air. It then rises in a tall fluted mould before baking. The hard part is getting the same cake every day: the workshop's temperature, the humidity, the flour and the eggs all change with the seasons."
+        },
+        {
+          "title": "Maison Fréville's gâteau battu",
+          "text": "The house has been making it since 1956 in Quesnoy-le-Montant, a Vimeu village a few kilometres from Abbeville. Founded by Charles Fréville and taken over by his son Francis in 1981, it is still run by the family. The flour comes from a nearby mill, the eggs from Huppy, the butter from the region. Since 2022 you can also find it in central Amiens, on rue des Vergeaux."
+        },
+        {
+          "title": "How to eat it",
+          "text": "Plain, in thick slices, for breakfast or with afternoon tea. Lightly toasted with salted butter or jam. At Picardy celebrations it also goes with foie gras or dessert. In mini size it becomes a rum baba, a Nutella-filled treat or a savoury goat's cheese bite."
+        },
+        {
+          "title": "Keeping it",
+          "text": "With no preservatives, it keeps for about ten days in its wrapping at room temperature. Don't put it in the fridge: the crumb hardens. If it starts to dry, a few seconds in the oven bring back its softness."
+        },
+        {
+          "title": "Where to buy gâteau battu in Amiens",
+          "text": "At Maison Fréville – Les spécialités de Quesnoy-le-Montant, 6 rue des Vergeaux, near Place Gambetta and a five-minute walk from the cathedral. Open Tuesday to Saturday. For a large battu or several cakes, order 48 hours ahead."
+        }
+      ],
+      "ctaTitle": "Fancy a gâteau battu?",
+      "ctaText": "Order it online and pick it up in store, or stop by the tea room for a slice."
+    },
+    "carte": {
+      "slug": "menu",
+      "metaTitle": "Menu and prices | Maison Fréville, pâtisserie in Amiens",
+      "metaDescription": "Prices of éclairs, tartlets, mini battus, cakes and loaf cakes at Maison Fréville, pâtisserie and tea room on rue des Vergeaux in Amiens.",
+      "eyebrow": "Menu",
+      "title": "Menu and prices",
+      "lead": "Window prices, per piece. The menu changes with the seasons, so some items may be missing on a given day.",
+      "checked": "Prices as of {date}, subject to change.",
+      "salonTitle": "In the tea room"
+    },
+    "legal": {
+      "slug": "legal",
+      "metaTitle": "Legal notice | Maison Fréville",
+      "title": "Legal notice",
+      "editor": "Publisher",
+      "editorText": "Maison Fréville – Les spécialités de Quesnoy-le-Montant, 6 rue des Vergeaux, 80000 Amiens, France. Phone: +33 3 22 40 15 86.",
+      "company": "Company",
+      "siret": "SIRET",
+      "pending": "to be completed",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The details sent through the order form (name, phone, email, message) are only used to prepare and confirm your order. They are never sold or used for advertising. You can ask for them to be deleted by calling the shop.",
+      "cookies": "Cookies",
+      "cookiesText": "This site sets no analytics or advertising cookies. Only your language choice is remembered.",
+      "photos": "Photos",
+      "photosText": "All photos are Maison Fréville's own."
+    }
+  },
+  "alt": {
+    "gateau-battu-tranche": "Sliced gâteau battu, yellow crumb and golden almond top",
+    "minis-battus-sortie-du-four": "Fluted mini gâteaux battus fresh from the oven",
+    "minis-battus-sous-cloche": "Nutella, Bueno and plain mini battus under glass domes in the shop",
+    "battu-garni-creme-abricot": "Brioche filled with cream and apricots, cut in half",
+    "baba-battu-au-rhum": "Rum baba battu with its pipette and whipped cream",
+    "eclairs-chocolat": "Chocolate éclairs cut open, chocolate custard",
+    "eclair-chocolat-noisettes": "Chocolate éclair with roasted hazelnuts",
+    "eclair-nutella": "Nutella-filled éclair cut in half",
+    "tartelette-citron-meringuee": "Lemon meringue tartlet on a white plate",
+    "tartelette-citron-dessus": "Lemon meringue tartlet seen from above",
+    "chou-fraises-amandes": "Choux pastry with strawberries and flaked almonds",
+    "dome-coco": "Coconut dome with cream",
+    "merveilleux-chocolat": "Chocolate merveilleux covered in shavings",
+    "tarte-fraises": "Strawberry tart from Maison Fréville",
+    "tartelettes-fraises-vanille": "Strawberry tartlets with a vanilla pod",
+    "entremets-fraises": "Fresh strawberry entremets",
+    "entremets-fruits-rouges": "Red berry and blueberry entremets",
+    "plateau-minis-choux": "Platter of mini choux to share",
+    "coffret-chocolats-maison": "Golden box of chocolates, “Les spécialités de Quesnoy-le-Montant, Maison Fréville since 1956”",
+    "tourte-maison": "Golden puff-pastry house pie",
+    "brioche-des-rois": "Brioche des rois with candied fruit and pearl sugar",
+    "halloween-cercueil-chocolat": "Halloween chocolate entremets shaped like a coffin",
+    "saint-patrick-trefle": "St Patrick's Day entremets with a shamrock",
+    "paques-oeuf-lapin": "Openwork chocolate Easter egg with a rabbit",
+    "paques-oeufs-ajoures": "Decorated openwork chocolate Easter eggs",
+    "paques-oeuf-papillons": "Chocolate Easter egg with butterflies, “Joyeuses Pâques”",
+    "paques-mouton-chocolat": "Chocolate Easter sheep",
+    "paques-vache-chocolat": "Chocolate Easter cow",
+    "paques-poule-chocolat": "White and red chocolate Easter hen",
+    "chevalet-salon-de-the": "Sandwich board “Tea room at the back of the shop” outside on rue des Vergeaux",
+    "equipe-devant-la-boutique": "The Maison Fréville team outside the Amiens shop",
+    "facade-enseigne": "Shop front with the sign “Les Spécialités, Maison Fréville since 1956”",
+    "facade-arches": "Orange shop front and arches on rue des Vergeaux"
+  }
+}

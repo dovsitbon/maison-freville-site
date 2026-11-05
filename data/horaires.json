@@ -1,0 +1,17 @@
+{
+  "_doc": "Horaires d'ouverture (heure de Paris). jours : 1 = lundi … 7 = dimanche. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [],
+    "2": [["10:00", "19:00"]],
+    "3": [["10:00", "19:00"]],
+    "4": [["10:00", "19:00"]],
+    "5": [["10:00", "19:00"]],
+    "6": [["09:00", "19:00"]],
+    "7": []
+  },
+  "exceptions": [
+    { "date": "2026-12-25", "closed": true },
+    { "date": "2027-01-01", "closed": true }
+  ]
+}

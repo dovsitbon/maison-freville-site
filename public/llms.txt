@@ -1,0 +1,18 @@
+# Maison Fréville – Les spécialités de Quesnoy-le-Montant
+
+> Pâtisserie et petit salon de thé au 6 rue des Vergeaux, 80000 Amiens (centre-ville, près de la place Gambetta et à 5 minutes à pied de la cathédrale). Spécialité : le vrai gâteau battu du Vimeu, brioche picarde haute et cannelée, recette de la Maison Fréville à Quesnoy-le-Montant depuis 1956.
+
+- Téléphone : 03 22 40 15 86 (+33 3 22 40 15 86)
+- Horaires : mardi à vendredi 10 h – 19 h, samedi 9 h – 19 h, fermé dimanche et lundi
+- Commande à retirer en boutique : en ligne sur le site, 48 h à l'avance ; paiement en boutique
+- Note Google : 4,8/5 (141 avis, relevé le 5 novembre 2026)
+- Instagram : https://www.instagram.com/lesspecialitesdequesnoy/
+
+## Pages
+
+- [Accueil (FR)](https://maison-freville.vercel.app/fr): pâtisseries, plateau de 15 minis à composer, salon de thé, créations de saison, commande à retirer, infos pratiques
+- [Le gâteau battu du Vimeu](https://maison-freville.vercel.app/fr/gateau-battu-du-vimeu): origine, fabrication, conservation, où l'acheter à Amiens
+- [La carte et les prix](https://maison-freville.vercel.app/fr/carte): éclairs dès 2,50 €, minis battus dès 1,80 €, tartelette au citron 3,60 €
+- [Home (EN)](https://maison-freville.vercel.app/en)
+- [Gâteau battu (EN)](https://maison-freville.vercel.app/en/gateau-battu)
+- [Menu and prices (EN)](https://maison-freville.vercel.app/en/menu)

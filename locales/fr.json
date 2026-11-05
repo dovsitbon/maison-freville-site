@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "title": "Pâtisserie et salon de thé à Amiens | Maison Fréville, le vrai gâteau battu du Vimeu",
+    "description": "Maison Fréville, les spécialités de Quesnoy-le-Montant : gâteau battu du Vimeu, éclairs, tartelettes, minis à partager et salon de thé au 6 rue des Vergeaux, en plein centre d'Amiens. Commande à retirer en boutique.",
+    "ogAlt": "Gâteau battu de la Maison Fréville tranché, mie jaune et croûte dorée"
+  },
+  "nav": {
+    "battu": "Le gâteau battu",
+    "patisserie": "La pâtisserie",
+    "salon": "Le salon de thé",
+    "order": "Commander",
+    "infos": "Infos",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "skip": "Aller au contenu",
+    "lang": "Langue",
+    "instagram": "Instagram de la boutique",
+    "facebook": "Page Facebook de la boutique",
+    "orderCta": "Commander à retirer",
+    "call": "Appeler",
+    "home": "Accueil"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "hero": {
+    "eyebrow": "Pâtisserie · Salon de thé · Amiens",
+    "title": "Le vrai gâteau battu du Vimeu, au cœur d'Amiens",
+    "sub": "La recette de la Maison Fréville, à Quesnoy-le-Montant depuis 1956. Des pâtisseries faites devant vous, et un petit salon de thé au fond de la boutique.",
+    "ctaOrder": "Commander à retirer",
+    "ctaSalon": "Venir au salon de thé",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "{count} avis",
+    "ratingNote": "Note Google relevée le {date}"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé en ce moment",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "Nos spécialités",
+    "items": {
+      "battu": "Gâteau battu",
+      "minis": "Minis à partager",
+      "patisseries": "Éclairs & tartelettes",
+      "sale": "Le salé",
+      "guimauves": "Guimauves & chocolats",
+      "saisons": "Créations de saison"
+    }
+  },
+  "services": {
+    "title": "La maison en pratique",
+    "items": {
+      "pickup": {
+        "title": "Retrait en boutique",
+        "text": "Commandez en ligne, retirez au 6 rue des Vergeaux."
+      },
+      "salon": {
+        "title": "Salon de thé",
+        "text": "Quelques tables au fond de la boutique, du mardi au samedi."
+      },
+      "events": {
+        "title": "Commandes pour vos fêtes",
+        "text": "Gâteaux battus, plateaux de minis, galettes : sur commande."
+      },
+      "phone": {
+        "title": "03 22 40 15 86",
+        "text": "Une question, une commande urgente : appelez-nous."
+      }
+    }
+  },
+  "story": {
+    "eyebrow": "Depuis 1956",
+    "title": "Le gâteau battu, une brioche du Vimeu",
+    "p1": "À Quesnoy-le-Montant, entre Abbeville et la baie de Somme, la famille Fréville fait le gâteau battu depuis 1956. Charles l'a lancé, Francis a repris en 1981, ses enfants tiennent la maison aujourd'hui.",
+    "p2": "C'est une brioche haute et cannelée, très riche en jaunes d'œufs et en beurre, que l'on bat longuement avant de la cuire dans son moule. Sa mie est jaune, filante, presque fondante. On la sert aux mariages, aux communions, au petit-déjeuner, ou juste parce qu'on en a envie.",
+    "p3": "La farine vient d'un moulin à quelques kilomètres de Quesnoy, les œufs d'Huppy, le beurre de la région. Pas de conservateur : il se garde pourtant une dizaine de jours.",
+    "cta": "Tout savoir sur le gâteau battu",
+    "facts": {
+      "since": "Recette familiale depuis 1956",
+      "local": "Farine, œufs et beurre de la région",
+      "keeps": "Se garde une dizaine de jours"
+    },
+    "draft": "Texte proposé, en attente de validation par la maison."
+  },
+  "patisserie": {
+    "eyebrow": "La pâtisserie",
+    "title": "La vitrine du jour",
+    "intro": "Les pâtisseries sont faites dans l'atelier, à la vue de tous. Voici ce que l'on trouve le plus souvent en vitrine ; le reste change avec les saisons.",
+    "from": "à partir de",
+    "each": "l'unité",
+    "priceOnRequest": "Prix en boutique",
+    "availability": {
+      "shop": "Disponible en boutique",
+      "order": "Sur commande",
+      "both": "En boutique et sur commande"
+    },
+    "order": "Je commande",
+    "seeMenu": "Toute la carte et les prix"
+  },
+  "minis": {
+    "eyebrow": "À partager",
+    "title": "Composez votre plateau de 15 minis",
+    "intro": "Pour un anniversaire, un pot au bureau ou un goûter en famille : choisissez vos 15 minis, sucrés, salés ou les deux. On vous rappelle pour confirmer le prix et le jour de retrait.",
+    "sweet": "Sucré",
+    "savory": "Salé",
+    "count": "{n} sur {total}",
+    "left": "Encore {n} à choisir",
+    "full": "Votre plateau est complet",
+    "add": "Ajouter un {name}",
+    "remove": "Retirer un {name}",
+    "reset": "Recommencer",
+    "submit": "Demander ce plateau",
+    "hint": "La composition peut varier selon la production du jour ; la boutique vous confirme tout."
+  },
+  "salon": {
+    "eyebrow": "Le salon de thé",
+    "title": "Un petit salon caché au fond de la boutique",
+    "p1": "On entre pour un gâteau battu, on découvre au fond quelques tables, une banquette, du papier peint aux grandes feuilles et la lumière de la verrière. C'est l'adresse que les habitués gardent pour eux, et que les visiteurs de la cathédrale trouvent par hasard.",
+    "p2": "Café, thé, une part de flan ou un éclair : on s'installe sans réserver, du mardi au samedi.",
+    "cta": "Voir l'itinéraire",
+    "menuTitle": "La carte du salon",
+    "menuSoon": "Café, thé et toutes les pâtisseries de la vitrine. La carte complète du salon sera bientôt en ligne.",
+    "teas": "Thés",
+    "coffees": "Cafés",
+    "formulas": "Formules goûter",
+    "photoSoon": "Photo de la salle à venir"
+  },
+  "seasons": {
+    "eyebrow": "De saison",
+    "title": "Les créations du moment",
+    "intro": "Chaque fête a sa création. Elles ne restent que quelques semaines en vitrine : pensez à réserver.",
+    "now": "En ce moment",
+    "from": "Dès le {date}",
+    "until": "Jusqu'au {date}",
+    "items": {
+      "halloween": {
+        "title": "Halloween",
+        "text": "Entremets chocolat en forme de cercueil, et autres frayeurs gourmandes."
+      },
+      "fetes": {
+        "title": "Les fêtes de fin d'année",
+        "text": "Gâteaux battus, entremets et plateaux de minis pour les tables de fête."
+      },
+      "rois": {
+        "title": "Galettes & brioches des rois",
+        "text": "La galette feuilletée et la brioche des rois aux fruits confits, tout le mois de janvier."
+      },
+      "saintPatrick": {
+        "title": "Saint-Patrick",
+        "text": "Un entremets au trèfle, le temps d'une semaine."
+      },
+      "paques": {
+        "title": "Pâques",
+        "text": "Œufs ajourés, lapins, poules et moutons en chocolat, faits à l'atelier."
+      }
+    },
+    "order": "Réserver"
+  },
+  "gallery": {
+    "eyebrow": "Instagram",
+    "title": "Dans la vitrine, ces derniers temps",
+    "follow": "Suivre sur Instagram",
+    "open": "Agrandir la photo",
+    "close": "Fermer",
+    "prev": "Photo précédente",
+    "next": "Photo suivante",
+    "counter": "{n} / {total}"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Venir à la boutique",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "phone": "Téléphone",
+    "closed": "Fermé",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "access": "À pied depuis la cathédrale",
+    "accessText": "Environ 5 minutes à pied : dirigez-vous vers la place Gambetta, la rue des Vergeaux est à deux pas. La boutique est au numéro 6, devanture orange.",
+    "route": "Itinéraire",
+    "mapTitle": "Carte : 6 rue des Vergeaux, Amiens",
+    "facadeSoon": "Photo de la façade"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de commander",
+    "items": [
+      {
+        "q": "Combien de temps à l'avance faut-il commander ?",
+        "a": "Comptez 48 heures pour un gâteau battu, un plateau de minis ou une galette. Pour une grande quantité ou une fête (mariage, communion), appelez-nous une semaine avant."
+      },
+      {
+        "q": "Quelles tailles de gâteau battu proposez-vous ?",
+        "a": "Plusieurs tailles, du petit gâteau pour deux ou trois au grand battu pour les tablées. On vous indique les tailles et les prix du moment au téléphone ou en boutique."
+      },
+      {
+        "q": "Comment conserver le gâteau battu ?",
+        "a": "Dans son emballage, à température ambiante, à l'abri de la chaleur. Il se garde une dizaine de jours. S'il sèche un peu, quelques secondes au four le réveillent."
+      },
+      {
+        "q": "Et les allergènes ?",
+        "a": "Le gâteau battu contient du gluten, des œufs et du lait. Nos pâtisseries peuvent contenir des fruits à coque. Indiquez toute allergie dans votre commande : nous vous dirons ce qui est possible."
+      },
+      {
+        "q": "Peut-on payer en ligne ?",
+        "a": "Pas pour l'instant : vous réglez en boutique au moment du retrait."
+      },
+      {
+        "q": "Faut-il réserver au salon de thé ?",
+        "a": "Non, il suffit de passer pendant les heures d'ouverture. Pour un groupe, un petit appel avant est le bienvenu."
+      }
+    ]
+  },
+  "order": {
+    "eyebrow": "Commande à retirer",
+    "title": "Commandez, on vous le prépare",
+    "intro": "Choisissez vos produits et votre jour de retrait. La boutique vous rappelle pour confirmer la commande et le prix ; vous réglez sur place.",
+    "lead": "Retrait à partir de {hours} h après votre commande, du mardi au samedi.",
+    "productsTitle": "Vos produits",
+    "product": "Produit",
+    "products": {
+      "battu": "Gâteau battu",
+      "plateau": "Plateau de minis",
+      "galette": "Galette des rois",
+      "other": "Autre"
+    },
+    "size": "Taille",
+    "sizes": {
+      "small": "Petit",
+      "medium": "Moyen",
+      "large": "Grand"
+    },
+    "kind": "Plateau",
+    "kinds": {
+      "sweet": "Sucré",
+      "savory": "Salé",
+      "mixed": "Sucré et salé"
+    },
+    "portions": "Nombre de parts",
+    "portionsValue": "{n} parts",
+    "otherPh": "Ex. : 6 éclairs, 4 tartelettes citron…",
+    "quantity": "Quantité",
+    "addLine": "Ajouter un produit",
+    "removeLine": "Retirer ce produit",
+    "composition": "Composition du plateau",
+    "pickupTitle": "Retrait",
+    "date": "Jour de retrait",
+    "slot": "Créneau",
+    "slots": {
+      "morning": "Matin (ouverture – 12 h)",
+      "midday": "Midi (12 h – 15 h)",
+      "afternoon": "Après-midi (15 h – 19 h)"
+    },
+    "closedDay": "La boutique est fermée ce jour-là (dimanche, lundi ou fermeture exceptionnelle).",
+    "tooSoon": "Ce jour est trop proche : choisissez au plus tôt le {date}.",
+    "contactTitle": "Vos coordonnées",
+    "name": "Nom et prénom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "emailHint": "Pour recevoir le récapitulatif de votre commande.",
+    "message": "Message",
+    "messagePh": "Allergies, inscription sur le gâteau, heure précise…",
+    "required": "obligatoire",
+    "submit": "Envoyer ma commande",
+    "sending": "Envoi…",
+    "payNote": "Aucun paiement en ligne : vous réglez en boutique.",
+    "errors": {
+      "lines": "Ajoutez au moins un produit.",
+      "date": "Choisissez un jour de retrait.",
+      "slot": "Choisissez un créneau.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "send": "La commande n'a pas pu partir. Appelez-nous au 03 22 40 15 86, on la prend par téléphone."
+    },
+    "done": {
+      "title": "Merci, votre commande est envoyée",
+      "text": "La boutique vous rappelle pour la confirmer. Rien n'est réservé tant que nous ne vous avons pas rappelé.",
+      "mail": "Un récapitulatif vient de partir à {email}.",
+      "again": "Faire une autre commande",
+      "pendingTitle": "Dernière étape : appelez-nous pour confirmer",
+      "pendingText": "Votre commande est prête, mais elle n'a pas pu être transmise automatiquement à la boutique. Appelez-nous au 03 22 40 15 86 en nous lisant ce récapitulatif : nous la notons tout de suite."
+    },
+    "whatsapp": "Envoyer aussi sur WhatsApp",
+    "callTitle": "Plus simple au téléphone ?",
+    "callText": "Du mardi au samedi, aux heures d'ouverture.",
+    "mail": {
+      "subject": "Nouvelle commande à retirer",
+      "title": "Nouvelle commande à retirer",
+      "confirmSubject": "Votre commande chez Maison Fréville",
+      "confirmIntro": "Bonjour {name},\n\nMerci pour votre commande. Voici ce que vous nous avez demandé :",
+      "confirmOutro": "Nous vous rappelons pour confirmer la commande et le prix. Rien n'est réservé tant que nous ne vous avons pas rappelé.\nRèglement en boutique, au retrait.\n\nMaison Fréville – Les spécialités de Quesnoy-le-Montant\n6 rue des Vergeaux, 80000 Amiens\n03 22 40 15 86",
+      "lines": "Produits",
+      "pickup": "Retrait",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client"
+    }
+  },
+  "footer": {
+    "tagline": "Le vrai gâteau battu du Vimeu, pâtisserie et salon de thé au cœur d'Amiens.",
+    "legal": "Mentions légales",
+    "menu": "La carte",
+    "battu": "Le gâteau battu du Vimeu",
+    "rights": "© {year} Maison Fréville. Photos : Maison Fréville."
+  },
+  "categories": {
+    "battu": "Gâteaux battus",
+    "eclairs": "Éclairs",
+    "patisseries": "Pâtisseries",
+    "gateaux": "Gâteaux & cakes",
+    "sale": "Le salé",
+    "douceurs": "Douceurs"
+  },
+  "products": {
+    "gateauBattu": {
+      "name": "Gâteau battu du Vimeu",
+      "desc": "La grande brioche picarde, haute et cannelée, riche en jaunes d'œufs et en beurre."
+    },
+    "miniBattu": {
+      "name": "Mini gâteau battu",
+      "desc": "Le battu en format individuel, nature."
+    },
+    "miniBattuNutella": {
+      "name": "Mini battu Nutella",
+      "desc": "Mini battu garni de Nutella."
+    },
+    "miniBattuBueno": {
+      "name": "Mini battu Bueno",
+      "desc": "Mini battu garni façon Kinder Bueno."
+    },
+    "babaBattu": {
+      "name": "Baba battu",
+      "desc": "Un mini battu imbibé au rhum, avec sa pipette et sa chantilly."
+    },
+    "miniBattuChevre": {
+      "name": "Mini battu au chèvre",
+      "desc": "La version salée du mini battu, au fromage de chèvre."
+    },
+    "eclairCafe": {
+      "name": "Éclair café",
+      "desc": ""
+    },
+    "eclairChocolat": {
+      "name": "Éclair chocolat",
+      "desc": "Pâte à choux, crème pâtissière au chocolat, glaçage chocolat."
+    },
+    "eclairViolette": {
+      "name": "Éclair violette",
+      "desc": ""
+    },
+    "eclairPistache": {
+      "name": "Éclair pistache",
+      "desc": ""
+    },
+    "eclairNutella": {
+      "name": "Éclair Nutella",
+      "desc": "Généreusement garni, l'un des préférés de la vitrine."
+    },
+    "eclairSpeculoos": {
+      "name": "Éclair spéculoos",
+      "desc": ""
+    },
+    "flan": {
+      "name": "Part de flan",
+      "desc": ""
+    },
+    "pommeTatin": {
+      "name": "Pomme tatin",
+      "desc": ""
+    },
+    "merveilleux": {
+      "name": "Merveilleux au chocolat",
+      "desc": "Meringue, crème au chocolat et copeaux de chocolat."
+    },
+    "tarteletteCitron": {
+      "name": "Tartelette au citron",
+      "desc": "Crème citron et meringue légèrement flambée, zestes de citron vert."
+    },
+    "plateauMinis": {
+      "name": "Plateau de 15 minis",
+      "desc": "Minis battus, choux et bouchées salées, à composer pour vos invités."
+    },
+    "brownie": {
+      "name": "Brownie",
+      "desc": ""
+    },
+    "cookieNoisettes": {
+      "name": "Cookie 3 chocolats noisettes",
+      "desc": ""
+    },
+    "cookiePistache": {
+      "name": "Cookie pâte de pistache, pépites de chocolat noir",
+      "desc": ""
+    },
+    "cakePistacheGriottes": {
+      "name": "Part de cake pistache griottes",
+      "desc": ""
+    },
+    "cakeFruitsConfits": {
+      "name": "Part de cake aux fruits confits",
+      "desc": ""
+    },
+    "cakeNoisette": {
+      "name": "Part de cake à la noisette",
+      "desc": ""
+    },
+    "tourte": {
+      "name": "Tourte maison",
+      "desc": "Pâte feuilletée dorée et garniture du moment."
+    },
+    "guimauves": {
+      "name": "Guimauves maison",
+      "desc": "Moelleuses, aux parfums qui changent selon les semaines."
+    },
+    "coffretChocolats": {
+      "name": "Coffret de chocolats",
+      "desc": "Le coffret doré de la maison, à offrir."
+    },
+    "miniChou": {
+      "name": "Mini chou",
+      "desc": ""
+    },
+    "miniSaleDuMoment": {
+      "name": "Mini salé du moment",
+      "desc": ""
+    }
+  },
+  "pages": {
+    "battu": {
+      "slug": "gateau-battu-du-vimeu",
+      "metaTitle": "Le gâteau battu du Vimeu à Amiens | Maison Fréville",
+      "metaDescription": "Qu'est-ce que le gâteau battu, la brioche picarde du Vimeu ? Origine, recette, conservation, et où l'acheter à Amiens : Maison Fréville, 6 rue des Vergeaux.",
+      "eyebrow": "Spécialité picarde",
+      "title": "Le gâteau battu du Vimeu",
+      "lead": "Une brioche haute comme une toque de cuisinier, à la mie jaune et filante. Voici d'où elle vient, comment on la fait, et où la trouver à Amiens.",
+      "sections": [
+        {
+          "title": "Qu'est-ce que le gâteau battu ?",
+          "text": "Le gâteau battu est une brioche traditionnelle de Picardie, née dans le Vimeu et le Ponthieu, autour d'Abbeville. Il se reconnaît à sa forme : haut, cylindrique, cannelé sur les côtés, avec un dessus bombé et doré. Sa pâte contient beaucoup de jaunes d'œufs et de beurre, ce qui lui donne cette couleur jaune et cette mie très souple."
+        },
+        {
+          "title": "Pourquoi « battu » ?",
+          "text": "Parce que la pâte est battue longuement, à la main autrefois, au pétrin aujourd'hui, jusqu'à devenir élastique et pleine d'air. Elle lève ensuite dans un moule haut et cannelé avant d'être cuite. Le plus difficile est d'obtenir le même gâteau tous les jours : la température de l'atelier, l'humidité, la farine et les œufs changent d'une saison à l'autre."
+        },
+        {
+          "title": "Le gâteau battu de la Maison Fréville",
+          "text": "La maison le fait depuis 1956 à Quesnoy-le-Montant, village du Vimeu à quelques kilomètres d'Abbeville. Fondée par Charles Fréville, reprise par son fils Francis en 1981, elle est aujourd'hui tenue par la famille. La farine vient d'un moulin voisin, les œufs d'Huppy, le beurre de la région. Depuis 2022, on le trouve aussi en plein centre d'Amiens, rue des Vergeaux."
+        },
+        {
+          "title": "Comment le déguster ?",
+          "text": "Nature, en tranches épaisses, au petit-déjeuner ou au goûter. Légèrement toasté avec du beurre salé ou de la confiture. Dans les fêtes picardes, il accompagne aussi le foie gras ou le dessert. En mini format, il se décline en baba au rhum, garni de Nutella, ou en version salée au chèvre."
+        },
+        {
+          "title": "Conservation",
+          "text": "Sans conservateur, il se garde une dizaine de jours dans son emballage, à température ambiante. Ne le mettez pas au réfrigérateur : la mie durcit. S'il commence à sécher, quelques secondes au four lui rendent son moelleux."
+        },
+        {
+          "title": "Où acheter du gâteau battu à Amiens ?",
+          "text": "À la boutique Maison Fréville – Les spécialités de Quesnoy-le-Montant, 6 rue des Vergeaux, à deux pas de la place Gambetta et à cinq minutes à pied de la cathédrale. Ouvert du mardi au samedi. Pour un grand battu ou plusieurs gâteaux, commandez 48 heures à l'avance."
+        }
+      ],
+      "ctaTitle": "Envie d'un gâteau battu ?",
+      "ctaText": "Commandez-le en ligne et retirez-le en boutique, ou passez le goûter au salon de thé."
+    },
+    "carte": {
+      "slug": "carte",
+      "metaTitle": "La carte et les prix | Maison Fréville, pâtisserie à Amiens",
+      "metaDescription": "Prix des éclairs, tartelettes, minis battus, gâteaux et cakes de la Maison Fréville, pâtisserie et salon de thé rue des Vergeaux à Amiens.",
+      "eyebrow": "La carte",
+      "title": "La carte et les prix",
+      "lead": "Les prix de la vitrine, à l'unité. La carte change avec les saisons : certains produits peuvent manquer selon les jours.",
+      "checked": "Prix relevés le {date}, susceptibles d'évoluer.",
+      "salonTitle": "Au salon de thé"
+    },
+    "legal": {
+      "slug": "mentions-legales",
+      "metaTitle": "Mentions légales | Maison Fréville",
+      "title": "Mentions légales",
+      "editor": "Éditeur",
+      "editorText": "Maison Fréville – Les spécialités de Quesnoy-le-Montant, 6 rue des Vergeaux, 80000 Amiens. Téléphone : 03 22 40 15 86.",
+      "company": "Société",
+      "siret": "SIRET",
+      "pending": "à compléter",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées avec le formulaire de commande (nom, téléphone, e-mail, message) servent uniquement à préparer et confirmer votre commande. Elles ne sont ni revendues ni utilisées pour de la publicité. Vous pouvez demander leur suppression en appelant la boutique.",
+      "cookies": "Cookies",
+      "cookiesText": "Ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Seul votre choix de langue est mémorisé.",
+      "photos": "Photos",
+      "photosText": "Toutes les photos sont celles de la Maison Fréville."
+    }
+  },
+  "alt": {
+    "gateau-battu-tranche": "Gâteau battu tranché, mie jaune et dessus doré aux amandes",
+    "minis-battus-sortie-du-four": "Minis gâteaux battus cannelés à la sortie du four",
+    "minis-battus-sous-cloche": "Minis battus Nutella, Bueno et nature sous cloches en verre dans la boutique",
+    "battu-garni-creme-abricot": "Brioche garnie de crème et d'abricots, coupée en deux",
+    "baba-battu-au-rhum": "Baba battu au rhum avec sa pipette et sa chantilly",
+    "eclairs-chocolat": "Éclairs au chocolat coupés, crème pâtissière au chocolat",
+    "eclair-chocolat-noisettes": "Éclair au chocolat et noisettes torréfiées",
+    "eclair-nutella": "Éclair garni de Nutella, coupé en deux",
+    "tartelette-citron-meringuee": "Tartelette au citron meringuée sur une assiette blanche",
+    "tartelette-citron-dessus": "Tartelette au citron meringuée vue de dessus",
+    "chou-fraises-amandes": "Chou aux fraises et amandes effilées",
+    "dome-coco": "Dôme à la noix de coco et sa crème",
+    "merveilleux-chocolat": "Merveilleux au chocolat couvert de copeaux",
+    "tarte-fraises": "Tarte aux fraises de la Maison Fréville",
+    "tartelettes-fraises-vanille": "Tartelettes aux fraises et gousse de vanille",
+    "entremets-fraises": "Entremets aux fraises fraîches",
+    "entremets-fruits-rouges": "Entremets aux fruits rouges et myrtilles",
+    "plateau-minis-choux": "Plateau de minis choux à partager",
+    "coffret-chocolats-maison": "Coffret de chocolats doré « Les spécialités de Quesnoy-le-Montant, Maison Fréville depuis 1956 »",
+    "tourte-maison": "Tourte maison en pâte feuilletée dorée",
+    "brioche-des-rois": "Brioche des rois aux fruits confits et sucre perlé",
+    "halloween-cercueil-chocolat": "Entremets d'Halloween en forme de cercueil au chocolat",
+    "saint-patrick-trefle": "Entremets de la Saint-Patrick décoré d'un trèfle",
+    "paques-oeuf-lapin": "Œuf de Pâques en chocolat ajouré d'un lapin",
+    "paques-oeufs-ajoures": "Œufs de Pâques en chocolat ajourés et décorés",
+    "paques-oeuf-papillons": "Œuf de Pâques en chocolat aux papillons, « Joyeuses Pâques »",
+    "paques-mouton-chocolat": "Mouton en chocolat pour Pâques",
+    "paques-vache-chocolat": "Vache en chocolat pour Pâques",
+    "paques-poule-chocolat": "Poule en chocolat blanc et rouge pour Pâques",
+    "chevalet-salon-de-the": "Chevalet « Salon de thé au fond de la boutique » devant la boutique, rue des Vergeaux",
+    "equipe-devant-la-boutique": "L'équipe de la Maison Fréville devant la boutique d'Amiens",
+    "facade-enseigne": "Façade de la boutique avec l'enseigne « Les Spécialités, Maison Fréville depuis 1956 »",
+    "facade-arches": "Devanture orange et arches de la boutique, rue des Vergeaux"
+  }
+}

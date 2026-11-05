@@ -1,0 +1,12 @@
+{
+  "_doc": "Créations de saison. Une saison s'affiche jusqu'à sa date de fin (to), puis disparaît toute seule. « from » sert à afficher « dès le … » si elle n'a pas commencé. Photos : public/media/saisons/.",
+  "items": [
+    { "id": "halloween", "from": "2026-10-15", "to": "2026-10-31", "image": "/media/saisons/halloween-cercueil-chocolat.jpg" },
+    { "id": "fetes", "from": "2026-12-01", "to": "2026-12-31", "image": "/media/patisseries/entremets-fruits-rouges.jpg" },
+    { "id": "rois", "from": "2027-01-02", "to": "2027-01-31", "image": "/media/saisons/brioche-des-rois.jpg" },
+    { "id": "saintPatrick", "from": "2027-03-08", "to": "2027-03-17", "image": "/media/saisons/saint-patrick-trefle.jpg" },
+    { "id": "paques", "from": "2027-03-10", "to": "2027-03-29", "image": "/media/saisons/paques-oeuf-papillons.jpg" },
+    { "id": "halloween", "from": "2027-10-15", "to": "2027-10-31", "image": "/media/saisons/halloween-cercueil-chocolat.jpg" }
+  ],
+  "contests": []
+}

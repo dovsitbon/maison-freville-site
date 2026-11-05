@@ -1,0 +1,250 @@
+{
+  "_doc": "Carte et prix. Prix en euros (null = prix communiqué en boutique / sur demande). availability : shop (en boutique), order (sur commande), both. Source des prix : carte « Les spécialités de Quesnoy-le-Montant » (publication Instagram 02) et étiquettes des minis battus (publication 31). Les noms et descriptions sont dans locales/*.json → products.items.<id>. home : carte affichée sur l'accueil (dans cet ordre).",
+  "checked": "2026-11-05",
+  "categories": [
+    {
+      "id": "battu",
+      "items": [
+        "gateauBattu",
+        "miniBattu",
+        "miniBattuNutella",
+        "miniBattuBueno",
+        "babaBattu",
+        "miniBattuChevre"
+      ]
+    },
+    {
+      "id": "eclairs",
+      "items": [
+        "eclairCafe",
+        "eclairChocolat",
+        "eclairViolette",
+        "eclairPistache",
+        "eclairNutella",
+        "eclairSpeculoos"
+      ]
+    },
+    {
+      "id": "patisseries",
+      "items": [
+        "flan",
+        "pommeTatin",
+        "merveilleux",
+        "tarteletteCitron",
+        "plateauMinis"
+      ]
+    },
+    {
+      "id": "gateaux",
+      "items": [
+        "brownie",
+        "cookieNoisettes",
+        "cookiePistache",
+        "cakePistacheGriottes",
+        "cakeFruitsConfits",
+        "cakeNoisette"
+      ]
+    },
+    {
+      "id": "sale",
+      "items": [
+        "tourte",
+        "miniBattuChevre"
+      ]
+    },
+    {
+      "id": "douceurs",
+      "items": [
+        "guimauves",
+        "coffretChocolats"
+      ]
+    }
+  ],
+  "items": {
+    "gateauBattu": {
+      "price": null,
+      "from": true,
+      "availability": "both",
+      "image": "/media/hero/gateau-battu-tranche.jpg",
+      "orderAs": "battu"
+    },
+    "miniBattu": {
+      "price": 1.8,
+      "availability": "both",
+      "image": "/media/gateau-battu/minis-battus-sous-cloche.jpg",
+      "orderAs": "plateau"
+    },
+    "miniBattuNutella": {
+      "price": 2.0,
+      "availability": "both",
+      "orderAs": "plateau"
+    },
+    "miniBattuBueno": {
+      "price": 2.0,
+      "availability": "both",
+      "orderAs": "plateau"
+    },
+    "babaBattu": {
+      "price": 2.7,
+      "availability": "shop",
+      "image": "/media/gateau-battu/baba-battu-au-rhum.jpg",
+      "orderAs": "plateau"
+    },
+    "miniBattuChevre": {
+      "price": null,
+      "availability": "both",
+      "orderAs": "plateau"
+    },
+    "eclairCafe": {
+      "price": 2.5,
+      "availability": "shop"
+    },
+    "eclairChocolat": {
+      "price": 2.5,
+      "availability": "shop",
+      "image": "/media/patisseries/eclairs-chocolat.jpg"
+    },
+    "eclairViolette": {
+      "price": 2.8,
+      "availability": "shop"
+    },
+    "eclairPistache": {
+      "price": 2.8,
+      "availability": "shop"
+    },
+    "eclairNutella": {
+      "price": 2.8,
+      "availability": "shop",
+      "image": "/media/patisseries/eclair-nutella.jpg"
+    },
+    "eclairSpeculoos": {
+      "price": 2.8,
+      "availability": "shop"
+    },
+    "flan": {
+      "price": 3.8,
+      "availability": "shop"
+    },
+    "pommeTatin": {
+      "price": 3.8,
+      "availability": "shop"
+    },
+    "merveilleux": {
+      "price": 3.5,
+      "availability": "shop",
+      "image": "/media/patisseries/merveilleux-chocolat.jpg"
+    },
+    "tarteletteCitron": {
+      "price": 3.6,
+      "availability": "shop",
+      "image": "/media/patisseries/tartelette-citron-meringuee.jpg"
+    },
+    "plateauMinis": {
+      "price": null,
+      "availability": "order",
+      "image": "/media/patisseries/plateau-minis-choux.jpg",
+      "orderAs": "plateau"
+    },
+    "brownie": {
+      "price": 2.7,
+      "availability": "shop"
+    },
+    "cookieNoisettes": {
+      "price": 2.0,
+      "availability": "shop"
+    },
+    "cookiePistache": {
+      "price": 2.0,
+      "availability": "shop"
+    },
+    "cakePistacheGriottes": {
+      "price": 2.7,
+      "availability": "shop"
+    },
+    "cakeFruitsConfits": {
+      "price": 2.7,
+      "availability": "shop"
+    },
+    "cakeNoisette": {
+      "price": 2.7,
+      "availability": "shop"
+    },
+    "tourte": {
+      "price": null,
+      "availability": "both",
+      "image": "/media/sale/tourte-maison.jpg",
+      "orderAs": "other"
+    },
+    "guimauves": {
+      "price": null,
+      "availability": "shop"
+    },
+    "coffretChocolats": {
+      "price": null,
+      "availability": "both",
+      "image": "/media/patisseries/coffret-chocolats-maison.jpg",
+      "orderAs": "other"
+    }
+  },
+  "home": [
+    "gateauBattu",
+    "miniBattu",
+    "babaBattu",
+    "eclairNutella",
+    "tarteletteCitron",
+    "merveilleux",
+    "plateauMinis",
+    "tourte"
+  ],
+  "minis": {
+    "_doc": "Plateau à composer : 15 minis. kind : sweet (sucré) ou savory (salé).",
+    "size": 15,
+    "items": [
+      {
+        "id": "miniBattu",
+        "kind": "sweet"
+      },
+      {
+        "id": "miniBattuNutella",
+        "kind": "sweet"
+      },
+      {
+        "id": "miniBattuBueno",
+        "kind": "sweet"
+      },
+      {
+        "id": "babaBattu",
+        "kind": "sweet"
+      },
+      {
+        "id": "miniChou",
+        "kind": "sweet"
+      },
+      {
+        "id": "miniBattuChevre",
+        "kind": "savory"
+      },
+      {
+        "id": "miniSaleDuMoment",
+        "kind": "savory"
+      }
+    ]
+  },
+  "battuSizes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "galettePortions": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "salon": {
+    "_doc": "Carte du salon de thé : à remplir avec la vraie carte. name_fr / name_en, price en euros (null = non affiché). Les rubriques vides n'apparaissent pas.",
+    "teas": [],
+    "coffees": [],
+    "formulas": []
+  }
+}
